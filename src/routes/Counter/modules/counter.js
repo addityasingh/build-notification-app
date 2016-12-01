@@ -11,7 +11,7 @@ export const doubleAsync = () => (dispatch, getState) => new Promise((resolve) =
   setTimeout(() => {
     dispatch(increment(getState().counter))
     resolve()
-  }, 2000)
+  }, 200)
 })
 
 export const actions = {

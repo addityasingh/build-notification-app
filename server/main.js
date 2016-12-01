@@ -39,7 +39,7 @@ if (config.env === 'development') {
   // of development since this directory will be copied into ~/dist
   // when the application is compiled.
   app.use(express.static(paths.client('static')))
-  app.use(express.static(paths.dist('static')))  
+  app.use(express.static(paths.dist('static')))
 } else {
   debug(
     'Server is being run outside of live development mode, meaning it will ' +

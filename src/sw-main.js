@@ -7,6 +7,6 @@ if (navigator.serviceWorker) {
             console.log('service worker registered');
         })
         .catch((err) => {
-            console.log('Cant register service worker');
+            console.log('Cannot register service worker');
         });
 }

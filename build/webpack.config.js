@@ -1,10 +1,12 @@
 const argv = require('yargs').argv
+const path = require('path');
 const webpack = require('webpack')
 const cssnano = require('cssnano')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const config = require('../config')
 const debug = require('debug')('app:webpack:config')
+const AssetsPlugin = require('assets-webpack-plugin')
 
 const paths = config.utils_paths
 const __DEV__ = config.globals.__DEV__
@@ -56,6 +58,10 @@ webpackConfig.externals['react/addons'] = true
 // ------------------------------------
 webpackConfig.plugins = [
   new webpack.DefinePlugin(config.globals),
+  new AssetsPlugin({ 
+    filename: 'assets.json',
+    path: paths.dist('static') 
+  }),
   new HtmlWebpackPlugin({
     template : paths.client('index.html'),
     hash     : false,

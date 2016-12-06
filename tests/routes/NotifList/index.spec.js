@@ -1,11 +1,11 @@
 import NotifList from 'routes/NotifList'
 
 describe('(Route) NotifList', () => {
-  let _component
+  // let _component
 
-  beforeEach(() => {
-    _component = NotifList.component()
-  })
+  // beforeEach(() => {
+  //   _component = NotifList.component()
+  // })
 
   it('Should return a route configuration object', () => {
     expect(typeof NotifList).to.equal('object')

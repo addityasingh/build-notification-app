@@ -3,7 +3,7 @@ import { NotifListView } from 'routes/NotifList/components/NotifListView'
 import { render } from 'enzyme'
 
 describe('(View) NotifList', () => {
-  let _component
+  // let _component
 
   // beforeEach(() => {
   //   _component = render(<NotifListView />)

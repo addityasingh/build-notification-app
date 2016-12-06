@@ -5,7 +5,7 @@ import '../../styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
   <div className='container text-center'>
-    <AppBar title="Build notifications" />
+    <AppBar title='Build notifications' />
     <div className='core-layout__viewport'>
       {children}
     </div>

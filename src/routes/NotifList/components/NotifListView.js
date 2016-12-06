@@ -1,14 +1,14 @@
 import React from 'react'
 import Avatar from 'material-ui/Avatar'
-import {List, ListItem} from 'material-ui/List'
-import { darkBlack } from 'material-ui/styles/colors';
+import { List, ListItem } from 'material-ui/List'
+import { darkBlack } from 'material-ui/styles/colors'
 import UserAvatar from '../assets/avatar-128.jpg'
 import './NotifListView.scss'
 
 export const NotifListView = () => {
-    const list = [1, 2, 3, 4, 5]
+  const list = [1, 2, 3, 4, 5]
 
-    return (<List>
+	return (<List>
         {
             list.map(item => (
                 <ListItem

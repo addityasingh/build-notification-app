@@ -1,30 +1,46 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Avatar from 'material-ui/Avatar'
 import { List, ListItem } from 'material-ui/List'
 import { darkBlack } from 'material-ui/styles/colors'
 import UserAvatar from '../assets/avatar-128.jpg'
+import {
+  getBuildForUserRepo,
+  getGithubRepos
+} from '../../../api/travis-api'
 import './NotifListView.scss'
 
-export const NotifListView = () => {
-  const list = [1, 2, 3, 4, 5]
+class NotifListView extends Component {
+	constructor() {
+		super()
+		this.state = { data: []};
+	}
 
-	return (<List>
-        {
-            list.map(item => (
-                <ListItem
-                    key={item}
-                    leftAvatar={<Avatar src={UserAvatar} />} 
-                    primaryText="Build #2"
-                    secondaryText={
-                        <p>
-                        <span style={{color: darkBlack}}>Brendan Lim</span> --
-                        I&apos;ll be in your neighborhood doing errands this weekend. Do you want to grab brunch?
-                        </p>
-                    }
-                />
-            ))
-        }
-    </List>)
+	componentWillMount () {
+		getGithubRepos('addi90', 'build-notification-app')
+			.then(data => this.setState({ data }))
+			.catch(err => console.log('data fetch failed with error ', err))
+	}
+
+	render () {
+		const { data } = this.state
+
+		return (<List>
+			{
+				data.map((item, id) => (
+					<ListItem
+						key={id}
+						leftAvatar={<Avatar src={UserAvatar} />} 
+						primaryText={item.name}
+						secondaryText={
+								<p>
+								{item.description}
+								</p>
+						}
+					/>
+				))
+			}
+		</List>)
+	}
 }
 
 export default NotifListView

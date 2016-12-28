@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Avatar from 'material-ui/Avatar'
 import { List, ListItem } from 'material-ui/List'
 import { darkBlack } from 'material-ui/styles/colors'
+import AngelIcon from '../../../static/assets/angel.svg'
 import UserAvatar from '../assets/avatar-128.jpg'
 import {
   getBuildForUserRepo,
@@ -10,10 +11,7 @@ import {
 import './NotifListView.scss'
 
 class NotifListView extends Component {
-	constructor() {
-		super()
-		this.state = { data: []};
-	}
+	state = { data: []};
 
 	componentWillMount () {
 		getGithubRepos('addi90', 'build-notification-app')
@@ -29,7 +27,7 @@ class NotifListView extends Component {
 				data.map((item, id) => (
 					<ListItem
 						key={id}
-						leftAvatar={<Avatar src={UserAvatar} />} 
+						leftAvatar={<Avatar src={AngelIcon} />} 
 						primaryText={item.name}
 						secondaryText={
 								<p>

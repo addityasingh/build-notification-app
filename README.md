@@ -3,3 +3,6 @@ This is a simple progressive web app implementation to trigger Build notificatio
 
 # Reference
 This library is forked from [React Redux Starter Kit](https://github.com/davezuko/react-redux-starter-kit)
+
+#Credits
+The free icons have been downloaded from http://www.flaticon.com/

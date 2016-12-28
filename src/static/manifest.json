@@ -1,6 +1,11 @@
 {
   "name": "Progressive Web App for build notification",
   "short_name": "PWApp",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
   "icons": [{
     "src": "icon-72x72.png",
     "sizes": "72x72",
@@ -14,19 +19,19 @@
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "ms-touch-icon-144x144-precomposed.png",
+    "src": "icon-144x144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "apple-touch-icon-152x152.png",
+    "src": "icon-152x152.png",
     "sizes": "152x152",
     "type": "image/png"
   }, {
-    "src": "chrome-touch-icon-192x192.png",
+    "src": "icon-192x192.png",
     "sizes": "192x192",
     "type": "image/png"
   }, {
-    "src": "chrome-splashscreen-icon-384x384.png",
+    "src": "icon-384x384.png",
     "sizes": "384x384",
     "type": "image/png"
   }, {
@@ -34,8 +39,5 @@
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#FFFFFF",
-  "theme_color": "#3F51B5"
+  "splash_pages": null
 }

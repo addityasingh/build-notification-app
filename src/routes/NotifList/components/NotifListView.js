@@ -14,7 +14,7 @@ class NotifListView extends Component {
 	state = { data: []};
 
 	componentWillMount () {
-		getGithubRepos('addi90', 'build-notification-app')
+		getBuildForUserRepo('addi90', 'build-notification-app')
 			.then(data => this.setState({ data }))
 			.catch(err => console.log('data fetch failed with error ', err))
 	}
@@ -28,10 +28,10 @@ class NotifListView extends Component {
 					<ListItem
 						key={id}
 						leftAvatar={<Avatar src={AngelIcon} />} 
-						primaryText={item.name}
+						primaryText={item.title}
 						secondaryText={
 								<p>
-								{item.description}
+								{item.state}
 								</p>
 						}
 					/>

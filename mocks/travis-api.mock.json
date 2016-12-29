@@ -1,0 +1,1381 @@
+{
+   "builds":[
+      {
+         "id":187403367,
+         "repository_id":11109768,
+         "commit_id":53513831,
+         "number":"31",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-29T08:00:28Z",
+         "finished_at":"2016-12-29T08:02:30Z",
+         "duration":122,
+         "job_ids":[
+            187403368
+         ]
+      },
+      {
+         "id":187402947,
+         "repository_id":11109768,
+         "commit_id":53513723,
+         "number":"30",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add manifest file, icons for app",
+         "pull_request_number":10,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-29T07:56:35Z",
+         "finished_at":"2016-12-29T07:58:07Z",
+         "duration":92,
+         "job_ids":[
+            187402948
+         ]
+      },
+      {
+         "id":187402943,
+         "repository_id":11109768,
+         "commit_id":53513720,
+         "number":"29",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-29T07:56:32Z",
+         "finished_at":"2016-12-29T07:58:09Z",
+         "duration":97,
+         "job_ids":[
+            187402944
+         ]
+      },
+      {
+         "id":187402932,
+         "repository_id":11109768,
+         "commit_id":53513718,
+         "number":"28",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add manifest file, icons for app",
+         "pull_request_number":10,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-29T07:56:28Z",
+         "finished_at":"2016-12-29T07:58:00Z",
+         "duration":92,
+         "job_ids":[
+            187402933
+         ]
+      },
+      {
+         "id":187402782,
+         "repository_id":11109768,
+         "commit_id":53513703,
+         "number":"27",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-29T07:56:11Z",
+         "finished_at":"2016-12-29T07:57:46Z",
+         "duration":95,
+         "job_ids":[
+            187402783
+         ]
+      },
+      {
+         "id":187224877,
+         "repository_id":11109768,
+         "commit_id":53464813,
+         "number":"26",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-28T15:13:47Z",
+         "finished_at":"2016-12-28T15:16:56Z",
+         "duration":189,
+         "job_ids":[
+            187224878
+         ]
+      },
+      {
+         "id":187223491,
+         "repository_id":11109768,
+         "commit_id":53464578,
+         "number":"25",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add svg assets, Integrate adding response to cache, fix style issue o\u2026",
+         "pull_request_number":9,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-28T15:09:51Z",
+         "finished_at":"2016-12-28T15:11:35Z",
+         "duration":104,
+         "job_ids":[
+            187223492
+         ]
+      },
+      {
+         "id":187223485,
+         "repository_id":11109768,
+         "commit_id":53464576,
+         "number":"24",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-28T15:09:49Z",
+         "finished_at":"2016-12-28T15:11:30Z",
+         "duration":101,
+         "job_ids":[
+            187223486
+         ]
+      },
+      {
+         "id":187223479,
+         "repository_id":11109768,
+         "commit_id":53464571,
+         "number":"23",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add svg assets, Integrate adding response to cache, fix style issue o\u2026",
+         "pull_request_number":9,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-28T15:09:42Z",
+         "finished_at":"2016-12-28T15:11:35Z",
+         "duration":113,
+         "job_ids":[
+            187223480
+         ]
+      },
+      {
+         "id":187223369,
+         "repository_id":11109768,
+         "commit_id":53464536,
+         "number":"22",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-28T15:09:09Z",
+         "finished_at":"2016-12-28T15:10:47Z",
+         "duration":98,
+         "job_ids":[
+            187223370
+         ]
+      },
+      {
+         "id":184657597,
+         "repository_id":11109768,
+         "commit_id":52728512,
+         "number":"21",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-16T21:37:31Z",
+         "finished_at":"2016-12-16T21:39:07Z",
+         "duration":96,
+         "job_ids":[
+            184657598
+         ]
+      },
+      {
+         "id":184655804,
+         "repository_id":11109768,
+         "commit_id":52727935,
+         "number":"20",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Integrate Travis and github api data",
+         "pull_request_number":8,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-16T21:28:49Z",
+         "finished_at":"2016-12-16T21:30:31Z",
+         "duration":102,
+         "job_ids":[
+            184655805
+         ]
+      },
+      {
+         "id":184655802,
+         "repository_id":11109768,
+         "commit_id":52727933,
+         "number":"19",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-16T21:28:44Z",
+         "finished_at":"2016-12-16T21:30:10Z",
+         "duration":86,
+         "job_ids":[
+            184655803
+         ]
+      },
+      {
+         "id":184655744,
+         "repository_id":11109768,
+         "commit_id":52727922,
+         "number":"18",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Integrate Travis and github api data",
+         "pull_request_number":8,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-16T21:28:39Z",
+         "finished_at":"2016-12-16T21:30:21Z",
+         "duration":102,
+         "job_ids":[
+            184655746
+         ]
+      },
+      {
+         "id":184645355,
+         "repository_id":11109768,
+         "commit_id":52725331,
+         "number":"17",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-16T20:51:05Z",
+         "finished_at":"2016-12-16T20:52:49Z",
+         "duration":104,
+         "job_ids":[
+            184645356
+         ]
+      },
+      {
+         "id":181796137,
+         "repository_id":11109768,
+         "commit_id":51891362,
+         "number":"16",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-06T22:24:53Z",
+         "finished_at":"2016-12-06T22:26:38Z",
+         "duration":105,
+         "job_ids":[
+            181796138
+         ]
+      },
+      {
+         "id":181795061,
+         "repository_id":11109768,
+         "commit_id":51891035,
+         "number":"15",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add the NotifList route",
+         "pull_request_number":7,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-06T22:20:53Z",
+         "finished_at":"2016-12-06T22:22:39Z",
+         "duration":106,
+         "job_ids":[
+            181795062
+         ]
+      },
+      {
+         "id":181795026,
+         "repository_id":11109768,
+         "commit_id":51891032,
+         "number":"14",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-06T22:20:49Z",
+         "finished_at":"2016-12-06T22:22:34Z",
+         "duration":105,
+         "job_ids":[
+            181795027
+         ]
+      },
+      {
+         "id":181497727,
+         "repository_id":11109768,
+         "commit_id":51803303,
+         "number":"13",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add the NotifList route",
+         "pull_request_number":7,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"failed",
+         "started_at":"2016-12-05T22:37:47Z",
+         "finished_at":"2016-12-05T22:38:36Z",
+         "duration":49,
+         "job_ids":[
+            181497728
+         ]
+      },
+      {
+         "id":181497719,
+         "repository_id":11109768,
+         "commit_id":51803298,
+         "number":"12",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"failed",
+         "started_at":"2016-12-05T22:37:48Z",
+         "finished_at":"2016-12-05T22:38:44Z",
+         "duration":56,
+         "job_ids":[
+            181497720
+         ]
+      },
+      {
+         "id":181494240,
+         "repository_id":11109768,
+         "commit_id":51802415,
+         "number":"11",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add the NotifList route",
+         "pull_request_number":7,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"failed",
+         "started_at":"2016-12-05T22:25:19Z",
+         "finished_at":"2016-12-05T22:26:28Z",
+         "duration":69,
+         "job_ids":[
+            181494241
+         ]
+      },
+      {
+         "id":181494236,
+         "repository_id":11109768,
+         "commit_id":51802413,
+         "number":"10",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"failed",
+         "started_at":"2016-12-05T22:25:10Z",
+         "finished_at":"2016-12-05T22:26:10Z",
+         "duration":60,
+         "job_ids":[
+            181494237
+         ]
+      },
+      {
+         "id":181494226,
+         "repository_id":11109768,
+         "commit_id":51802409,
+         "number":"9",
+         "event_type":"pull_request",
+         "pull_request":true,
+         "pull_request_title":"Add the NotifList route",
+         "pull_request_number":7,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"failed",
+         "started_at":"2016-12-05T22:25:08Z",
+         "finished_at":"2016-12-05T22:26:09Z",
+         "duration":61,
+         "job_ids":[
+            181494227
+         ]
+      },
+      {
+         "id":181494123,
+         "repository_id":11109768,
+         "commit_id":51802376,
+         "number":"8",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"failed",
+         "started_at":"2016-12-05T22:24:42Z",
+         "finished_at":"2016-12-05T22:25:43Z",
+         "duration":61,
+         "job_ids":[
+            181494124
+         ]
+      },
+      {
+         "id":180570383,
+         "repository_id":11109768,
+         "commit_id":51534066,
+         "number":"7",
+         "event_type":"push",
+         "pull_request":false,
+         "pull_request_title":null,
+         "pull_request_number":null,
+         "config":{
+            "sudo":false,
+            "language":"node_js",
+            "node_js":[
+               "6"
+            ],
+            "cache":{
+               "directories":[
+                  "node_modules"
+               ]
+            },
+            "install":[
+               "npm install"
+            ],
+            "script":[
+               "npm run deploy:dev",
+               "npm run deploy:prod"
+            ],
+            "after_success":[
+               "npm run codecov"
+            ],
+            ".result":"configured",
+            "group":"stable",
+            "dist":"precise"
+         },
+         "state":"passed",
+         "started_at":"2016-12-01T23:57:14Z",
+         "finished_at":"2016-12-02T00:00:02Z",
+         "duration":168,
+         "job_ids":[
+            180570384
+         ]
+      }
+   ],
+   "commits":[
+      {
+         "id":53513831,
+         "sha":"03a28451493cfc0a216085054473066549b85dff",
+         "branch":"master",
+         "message":"Merge pull request #10 from addi90/integrate-cache\n\nAdd manifest file, icons for app",
+         "committed_at":"2016-12-29T07:59:56Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/81602deed72c...03a28451493c",
+         "pull_request_number":null
+      },
+      {
+         "id":53513723,
+         "sha":"55cfad52466f272988d85cc9eb7d91586805a4e2",
+         "branch":"master",
+         "message":"Merge branch 'master' into integrate-cache",
+         "committed_at":"2016-12-29T07:56:27Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/10",
+         "pull_request_number":10
+      },
+      {
+         "id":53513720,
+         "sha":"075ecd0fd69c745b4509c8333d6c5faa235a1e36",
+         "branch":"integrate-cache",
+         "message":"Merge branch 'master' into integrate-cache",
+         "committed_at":"2016-12-29T07:56:27Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/9b08144e349e...075ecd0fd69c",
+         "pull_request_number":null
+      },
+      {
+         "id":53513718,
+         "sha":"97866e4a50b7e191e89056ead3a9b6acc87d8565",
+         "branch":"master",
+         "message":"Add manifest file, icons for app",
+         "committed_at":"2016-12-28T22:00:52Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/10",
+         "pull_request_number":10
+      },
+      {
+         "id":53513703,
+         "sha":"9b08144e349e2d4661cd12f59945198614ff4767",
+         "branch":"integrate-cache",
+         "message":"Add manifest file, icons for app",
+         "committed_at":"2016-12-28T22:00:52Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/commit/9b08144e349e",
+         "pull_request_number":null
+      },
+      {
+         "id":53464813,
+         "sha":"81602deed72cf99707f24445c6347d8aaf7f802b",
+         "branch":"master",
+         "message":"Merge pull request #9 from addi90/integrate-cache\n\nAdd svg assets, Integrate adding response to cache, fix style issue o\u2026",
+         "committed_at":"2016-12-28T15:13:41Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/22bcbe8bb8ad...81602deed72c",
+         "pull_request_number":null
+      },
+      {
+         "id":53464578,
+         "sha":"ed44327134090a5cfb657ec0de8be1b4fecd9bba",
+         "branch":"master",
+         "message":"Merge branch 'master' into integrate-cache",
+         "committed_at":"2016-12-28T15:09:43Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/9",
+         "pull_request_number":9
+      },
+      {
+         "id":53464576,
+         "sha":"a3b0772edc2a3f739ad2bddf85b1796d432cbe7e",
+         "branch":"integrate-cache",
+         "message":"Merge branch 'master' into integrate-cache",
+         "committed_at":"2016-12-28T15:09:43Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/14f170f2f90a...a3b0772edc2a",
+         "pull_request_number":null
+      },
+      {
+         "id":53464571,
+         "sha":"844a7044a9b4576cf658d25a560fc6d5a63e89a4",
+         "branch":"master",
+         "message":"Add svg assets, Integrate adding response to cache, fix style issue of header",
+         "committed_at":"2016-12-28T15:08:27Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/9",
+         "pull_request_number":9
+      },
+      {
+         "id":53464536,
+         "sha":"14f170f2f90ab0c8a05943b739de1f482ee1ff42",
+         "branch":"integrate-cache",
+         "message":"Add svg assets, Integrate adding response to cache, fix style issue of header",
+         "committed_at":"2016-12-28T15:08:27Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/commit/14f170f2f90a",
+         "pull_request_number":null
+      },
+      {
+         "id":52728512,
+         "sha":"22bcbe8bb8ad34f1b641534025470098f17b1771",
+         "branch":"master",
+         "message":"Merge pull request #8 from addi90/integrate-notiflist\n\nIntegrate Travis and github api data",
+         "committed_at":"2016-12-16T21:37:24Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/dd132d8c9471...22bcbe8bb8ad",
+         "pull_request_number":null
+      },
+      {
+         "id":52727935,
+         "sha":"d887265a6a52630ea7e1679f369a00f3029fb179",
+         "branch":"master",
+         "message":"Merge branch 'master' into integrate-notiflist",
+         "committed_at":"2016-12-16T21:28:43Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/8",
+         "pull_request_number":8
+      },
+      {
+         "id":52727933,
+         "sha":"5c418c8fb8de7d1a517e12820b75ad16d180030b",
+         "branch":"integrate-notiflist",
+         "message":"Merge branch 'master' into integrate-notiflist",
+         "committed_at":"2016-12-16T21:28:43Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/e8c90f9bada6...5c418c8fb8de",
+         "pull_request_number":null
+      },
+      {
+         "id":52727922,
+         "sha":"75c2af4e8be599f712a2f2e7a069619cc67fcf45",
+         "branch":"master",
+         "message":"Integrate Travis and github api data",
+         "committed_at":"2016-12-16T20:50:38Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/8",
+         "pull_request_number":8
+      },
+      {
+         "id":52725331,
+         "sha":"e8c90f9bada6f6f7eb064f6ae55abe19b9ba32a7",
+         "branch":"integrate-notiflist",
+         "message":"Integrate Travis and github api data",
+         "committed_at":"2016-12-16T20:50:38Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/commit/e8c90f9bada6",
+         "pull_request_number":null
+      },
+      {
+         "id":51891362,
+         "sha":"dd132d8c9471bd8fcf6057357ff055fc0c3b1258",
+         "branch":"master",
+         "message":"Merge pull request #7 from addi90/integrate-notiflist\n\nAdd the NotifList route",
+         "committed_at":"2016-12-06T22:24:47Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/36cff45fb560...dd132d8c9471",
+         "pull_request_number":null
+      },
+      {
+         "id":51891035,
+         "sha":"cffdfa66e3939742f66f48ffe9dec5903b6e205c",
+         "branch":"master",
+         "message":"Fix breaking tests and linting rules",
+         "committed_at":"2016-12-06T22:20:32Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "pull_request_number":7
+      },
+      {
+         "id":51891032,
+         "sha":"68ba4677b93814cc007b4d557af25e99da8b77a7",
+         "branch":"integrate-notiflist",
+         "message":"Fix breaking tests and linting rules",
+         "committed_at":"2016-12-06T22:20:32Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/2584f2be5a00...68ba4677b938",
+         "pull_request_number":null
+      },
+      {
+         "id":51803303,
+         "sha":"2292fc631630fbe078eafac85d860813aa621ac9",
+         "branch":"master",
+         "message":"Merge branch 'integrate-notiflist' of https://github.com/addi90/build-notification-app into integrate-notiflist",
+         "committed_at":"2016-12-05T22:37:35Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "pull_request_number":7
+      },
+      {
+         "id":51803298,
+         "sha":"2584f2be5a0067185409515b311fbdcc70653753",
+         "branch":"integrate-notiflist",
+         "message":"Merge branch 'integrate-notiflist' of https://github.com/addi90/build-notification-app into integrate-notiflist",
+         "committed_at":"2016-12-05T22:37:35Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/018e0fd31730...2584f2be5a00",
+         "pull_request_number":null
+      },
+      {
+         "id":51802415,
+         "sha":"7b3081b80e833adab298ebcb8cae9301582b4204",
+         "branch":"master",
+         "message":"Merge branch 'master' into integrate-notiflist",
+         "committed_at":"2016-12-05T22:25:06Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "pull_request_number":7
+      },
+      {
+         "id":51802413,
+         "sha":"018e0fd31730fa10cb7fa8a5b00f154ca77e3409",
+         "branch":"integrate-notiflist",
+         "message":"Merge branch 'master' into integrate-notiflist",
+         "committed_at":"2016-12-05T22:25:06Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/603581a5a448...018e0fd31730",
+         "pull_request_number":null
+      },
+      {
+         "id":51802409,
+         "sha":"a8b40893f05b6b0f38a30d194476a55db248917f",
+         "branch":"master",
+         "message":"Add the NotifList route",
+         "committed_at":"2016-12-05T22:23:36Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "pull_request_number":7
+      },
+      {
+         "id":51802376,
+         "sha":"603581a5a448ca8d417299ba072cb327a1b37c84",
+         "branch":"integrate-notiflist",
+         "message":"Add the NotifList route",
+         "committed_at":"2016-12-05T22:23:36Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"adisinghrajput@gmail.com",
+         "committer_name":"Aditya Pratap Singh",
+         "committer_email":"adisinghrajput@gmail.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/commit/603581a5a448",
+         "pull_request_number":null
+      },
+      {
+         "id":51534066,
+         "sha":"36cff45fb560ba4db934c89c4e43b02280ac7ef4",
+         "branch":"master",
+         "message":"Merge pull request #6 from addi90/update-readme\n\nUpdate the README document",
+         "committed_at":"2016-12-01T23:56:49Z",
+         "author_name":"Aditya Pratap Singh",
+         "author_email":"addi90@users.noreply.github.com",
+         "committer_name":"GitHub",
+         "committer_email":"noreply@github.com",
+         "compare_url":"https://github.com/addi90/build-notification-app/compare/5c0da006f938...36cff45fb560",
+         "pull_request_number":null
+      }
+   ]
+}

@@ -1,3 +1,6 @@
+import {compose, filter, map, pick } from 'lodash/fp'
+import { getTravisBuildData } from './converters/travis-build'
+
 const GITHUB_API_TOKEN = '9b3c9827e1512e378b07d8dd9c537d0ce84e66b3'
 const API_CONFIG = {
     URL: 'https://api.travis-ci.org',
@@ -37,12 +40,13 @@ export const getBuildForUserRepo = (userName, repoName) =>
         method: 'GET',
         headers: decorateRequestHeaders({})
     })
-    .then(({body}) => {
-        console.log('res', body)
-        return body
-    })
+    .then(res => res.json())
+    .then(({ builds = [] }) => builds)
+    .then(compose(
+        map(getTravisBuildData),
+        filter(build => build.event_type === 'pull_request')
+    ))
 
 export const getGithubRepos = userName =>
     fetch(`https://api.github.com/users/${userName}/repos`)
         .then(res => res.json())
-        .then(res => { console.log(res); return res; })

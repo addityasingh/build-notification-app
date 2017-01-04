@@ -1,4 +1,5 @@
 import swURL from 'file?name=sw.js!babel!./sw'
+import { saveTokenForPush } from './api/token-api';
 
 const applicationServerPublicKey = 'BA9IXV5TGJSpuz8muslE3lcd2yxAXV8xgfFZIyq1-mqB0wc4aBlrVKD-jmihAJbH30redAum0U0wqWxk3DQ9UvA';
 
@@ -8,8 +9,7 @@ if (navigator.serviceWorker && 'PushManager' in window) {
             console.log('service worker registered')
 
             swRegistration.pushManager.subscribe({
-                userVisibleOnly: true,
-                applicationServerKey: urlB64ToUint8Array(applicationServerPublicKey)
+                userVisibleOnly: true
             })
             .then(function(subscription) {
                 updateSubscriptionOnServer(subscription);
@@ -36,6 +36,6 @@ function urlB64ToUint8Array(base64String) {
 }
 
 function updateSubscriptionOnServer(subscription) {
-  // TODO: Add code to send subscription to server
+  saveTokenForPush(subscription);
   console.log(subscription);
 }

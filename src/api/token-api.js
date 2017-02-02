@@ -7,9 +7,7 @@ export const saveTokenForPush = subscription =>
             'Content-Type': 'application/json'
         },
         mode: 'no-cors',
-        body: JSON.stringify({
-            token: extractTokenFromSubscription(subscription)
-        })
+        body: JSON.stringify(subscription)
     })
 
 const extractTokenFromSubscription = ({ endpoint }) =>

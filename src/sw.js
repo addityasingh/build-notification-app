@@ -34,11 +34,12 @@ self.addEventListener('fetch', event => {
 })
 
 self.addEventListener('push', event => {
-  console.log('[Service Worker] Push Received.');
-
+  const payload = event.data.json();
+  const { token } = payload;
+  // Replace the tokn with actual payload from github Webhook
   const title = 'Push Codelab';
   const options = {
-    body: 'Yay it works.',
+    body: token || 'Yay!',
     icon: 'images/icon.png',
     badge: 'images/badge.png'
   };

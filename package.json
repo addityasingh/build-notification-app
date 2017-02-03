@@ -1,6 +1,6 @@
 {
   "name": "build-notification",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Redux PWA to subscribe to Github and Travis build notifications",
   "main": "index.js",
   "engines": {
@@ -71,7 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/addi90/react-redux-starter-kit.git"
+    "url": "git+https://github.com/addityasingh/react-redux-starter-kit.git"
   },
   "author": "Aditya Pratap Singh <adisinghrajput@gmail.com> ",
   "license": "MIT",

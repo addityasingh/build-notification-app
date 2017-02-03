@@ -14,7 +14,7 @@ class NotifListView extends Component {
 	state = { data: []};
 
 	componentWillMount () {
-		getBuildForUserRepo('addi90', 'build-notification-app')
+		getBuildForUserRepo('addityasingh', 'build-notification-app')
 			.then(data => this.setState({ data }))
 			.catch(err => console.log('data fetch failed with error ', err))
 	}

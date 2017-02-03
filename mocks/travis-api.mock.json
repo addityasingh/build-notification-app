@@ -1056,13 +1056,13 @@
          "id":53513831,
          "sha":"03a28451493cfc0a216085054473066549b85dff",
          "branch":"master",
-         "message":"Merge pull request #10 from addi90/integrate-cache\n\nAdd manifest file, icons for app",
+         "message":"Merge pull request #10 from addityasingh/integrate-cache\n\nAdd manifest file, icons for app",
          "committed_at":"2016-12-29T07:59:56Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/81602deed72c...03a28451493c",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/81602deed72c...03a28451493c",
          "pull_request_number":null
       },
       {
@@ -1072,10 +1072,10 @@
          "message":"Merge branch 'master' into integrate-cache",
          "committed_at":"2016-12-29T07:56:27Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/10",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/10",
          "pull_request_number":10
       },
       {
@@ -1085,10 +1085,10 @@
          "message":"Merge branch 'master' into integrate-cache",
          "committed_at":"2016-12-29T07:56:27Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/9b08144e349e...075ecd0fd69c",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/9b08144e349e...075ecd0fd69c",
          "pull_request_number":null
       },
       {
@@ -1101,7 +1101,7 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/10",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/10",
          "pull_request_number":10
       },
       {
@@ -1114,20 +1114,20 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/commit/9b08144e349e",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/commit/9b08144e349e",
          "pull_request_number":null
       },
       {
          "id":53464813,
          "sha":"81602deed72cf99707f24445c6347d8aaf7f802b",
          "branch":"master",
-         "message":"Merge pull request #9 from addi90/integrate-cache\n\nAdd svg assets, Integrate adding response to cache, fix style issue o\u2026",
+         "message":"Merge pull request #9 from addityasingh/integrate-cache\n\nAdd svg assets, Integrate adding response to cache, fix style issue o\u2026",
          "committed_at":"2016-12-28T15:13:41Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/22bcbe8bb8ad...81602deed72c",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/22bcbe8bb8ad...81602deed72c",
          "pull_request_number":null
       },
       {
@@ -1137,10 +1137,10 @@
          "message":"Merge branch 'master' into integrate-cache",
          "committed_at":"2016-12-28T15:09:43Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/9",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/9",
          "pull_request_number":9
       },
       {
@@ -1150,10 +1150,10 @@
          "message":"Merge branch 'master' into integrate-cache",
          "committed_at":"2016-12-28T15:09:43Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/14f170f2f90a...a3b0772edc2a",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/14f170f2f90a...a3b0772edc2a",
          "pull_request_number":null
       },
       {
@@ -1166,7 +1166,7 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/9",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/9",
          "pull_request_number":9
       },
       {
@@ -1179,20 +1179,20 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/commit/14f170f2f90a",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/commit/14f170f2f90a",
          "pull_request_number":null
       },
       {
          "id":52728512,
          "sha":"22bcbe8bb8ad34f1b641534025470098f17b1771",
          "branch":"master",
-         "message":"Merge pull request #8 from addi90/integrate-notiflist\n\nIntegrate Travis and github api data",
+         "message":"Merge pull request #8 from addityasingh/integrate-notiflist\n\nIntegrate Travis and github api data",
          "committed_at":"2016-12-16T21:37:24Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/dd132d8c9471...22bcbe8bb8ad",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/dd132d8c9471...22bcbe8bb8ad",
          "pull_request_number":null
       },
       {
@@ -1202,10 +1202,10 @@
          "message":"Merge branch 'master' into integrate-notiflist",
          "committed_at":"2016-12-16T21:28:43Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/8",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/8",
          "pull_request_number":8
       },
       {
@@ -1215,10 +1215,10 @@
          "message":"Merge branch 'master' into integrate-notiflist",
          "committed_at":"2016-12-16T21:28:43Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/e8c90f9bada6...5c418c8fb8de",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/e8c90f9bada6...5c418c8fb8de",
          "pull_request_number":null
       },
       {
@@ -1231,7 +1231,7 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/8",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/8",
          "pull_request_number":8
       },
       {
@@ -1244,20 +1244,20 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/commit/e8c90f9bada6",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/commit/e8c90f9bada6",
          "pull_request_number":null
       },
       {
          "id":51891362,
          "sha":"dd132d8c9471bd8fcf6057357ff055fc0c3b1258",
          "branch":"master",
-         "message":"Merge pull request #7 from addi90/integrate-notiflist\n\nAdd the NotifList route",
+         "message":"Merge pull request #7 from addityasingh/integrate-notiflist\n\nAdd the NotifList route",
          "committed_at":"2016-12-06T22:24:47Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/36cff45fb560...dd132d8c9471",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/36cff45fb560...dd132d8c9471",
          "pull_request_number":null
       },
       {
@@ -1270,7 +1270,7 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/7",
          "pull_request_number":7
       },
       {
@@ -1283,33 +1283,33 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/2584f2be5a00...68ba4677b938",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/2584f2be5a00...68ba4677b938",
          "pull_request_number":null
       },
       {
          "id":51803303,
          "sha":"2292fc631630fbe078eafac85d860813aa621ac9",
          "branch":"master",
-         "message":"Merge branch 'integrate-notiflist' of https://github.com/addi90/build-notification-app into integrate-notiflist",
+         "message":"Merge branch 'integrate-notiflist' of https://github.com/addityasingh/build-notification-app into integrate-notiflist",
          "committed_at":"2016-12-05T22:37:35Z",
          "author_name":"Aditya Pratap Singh",
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/7",
          "pull_request_number":7
       },
       {
          "id":51803298,
          "sha":"2584f2be5a0067185409515b311fbdcc70653753",
          "branch":"integrate-notiflist",
-         "message":"Merge branch 'integrate-notiflist' of https://github.com/addi90/build-notification-app into integrate-notiflist",
+         "message":"Merge branch 'integrate-notiflist' of https://github.com/addityasingh/build-notification-app into integrate-notiflist",
          "committed_at":"2016-12-05T22:37:35Z",
          "author_name":"Aditya Pratap Singh",
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/018e0fd31730...2584f2be5a00",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/018e0fd31730...2584f2be5a00",
          "pull_request_number":null
       },
       {
@@ -1319,10 +1319,10 @@
          "message":"Merge branch 'master' into integrate-notiflist",
          "committed_at":"2016-12-05T22:25:06Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/7",
          "pull_request_number":7
       },
       {
@@ -1332,10 +1332,10 @@
          "message":"Merge branch 'master' into integrate-notiflist",
          "committed_at":"2016-12-05T22:25:06Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/603581a5a448...018e0fd31730",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/603581a5a448...018e0fd31730",
          "pull_request_number":null
       },
       {
@@ -1348,7 +1348,7 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/pull/7",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/pull/7",
          "pull_request_number":7
       },
       {
@@ -1361,20 +1361,20 @@
          "author_email":"adisinghrajput@gmail.com",
          "committer_name":"Aditya Pratap Singh",
          "committer_email":"adisinghrajput@gmail.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/commit/603581a5a448",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/commit/603581a5a448",
          "pull_request_number":null
       },
       {
          "id":51534066,
          "sha":"36cff45fb560ba4db934c89c4e43b02280ac7ef4",
          "branch":"master",
-         "message":"Merge pull request #6 from addi90/update-readme\n\nUpdate the README document",
+         "message":"Merge pull request #6 from addityasingh/update-readme\n\nUpdate the README document",
          "committed_at":"2016-12-01T23:56:49Z",
          "author_name":"Aditya Pratap Singh",
-         "author_email":"addi90@users.noreply.github.com",
+         "author_email":"addityasingh@users.noreply.github.com",
          "committer_name":"GitHub",
          "committer_email":"noreply@github.com",
-         "compare_url":"https://github.com/addi90/build-notification-app/compare/5c0da006f938...36cff45fb560",
+         "compare_url":"https://github.com/addityasingh/build-notification-app/compare/5c0da006f938...36cff45fb560",
          "pull_request_number":null
       }
    ]

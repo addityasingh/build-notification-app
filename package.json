@@ -71,7 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/addi90/react-redux-starter-kit.git"
+    "url": "git+https://github.com/addityasingh/react-redux-starter-kit.git"
   },
   "author": "Aditya Pratap Singh <adisinghrajput@gmail.com> ",
   "license": "MIT",

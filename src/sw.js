@@ -6,13 +6,18 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => 
-                fetch("assets.json")
-                    .then(response => response.json())
-                    .then(assets => cache.addAll([
-                            "/",
-                            assets.vendor.js,
-                            assets.app.js
-                    ]))
+                fetch("static/assets.json", {
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    mode: 'no-cors'
+                })
+                .then(response => response.json())
+                .then(assets => cache.addAll([
+                        "/",
+                        assets.vendor.js,
+                        assets.app.js
+                ]))
     ));
 });
 
@@ -35,13 +40,12 @@ self.addEventListener('fetch', event => {
 
 self.addEventListener('push', event => {
   const payload = event.data.json();
-  const { token } = payload;
-  // Replace the tokn with actual payload from github Webhook
-  const title = 'Push Codelab';
+  const { body } = payload;  
+  const title = 'Build notification message';
+
   const options = {
-    body: token || 'Yay!',
-    icon: 'images/icon.png',
-    badge: 'images/badge.png'
+    body: body || 'Yay!',
+    icon: 'icon-72x72.png'
   };
 
   event.waitUntil(self.registration.showNotification(title, options));

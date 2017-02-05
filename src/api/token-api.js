@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:4567'
+const API_URL = 'https://d07a5522.ngrok.io'
 
 export const saveTokenForPush = subscription =>
     fetch(`${API_URL}/token`, {

@@ -8,7 +8,7 @@ class LoginView extends Component {
 
 	renderSignInOptions () {
 		var uiConfig = {
-			signInSuccessUrl: 'https://build-notification-app.firebaseapp.com/',
+			signInSuccessUrl: 'https://build-notification-app.firebaseapp.com/home',
 			signInOptions: [
 			// Leave the lines as is for the providers you want to offer your users.
 				firebase.auth.GoogleAuthProvider.PROVIDER_ID,

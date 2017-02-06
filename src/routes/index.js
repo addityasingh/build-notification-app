@@ -6,10 +6,10 @@ import NotifListRoute from './NotifList'
 export const createRoutes = (store) => ({
   path        : '/',
   component   : CoreLayout,
-  indexRoute  : NotifListRoute,
+  indexRoute  : LoginRoute,
   childRoutes : [
     CounterRoute(store),
-    LoginRoute(store)
+    NotifListRoute(store)
   ]
 })
 

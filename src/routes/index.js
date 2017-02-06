@@ -1,13 +1,15 @@
 import CoreLayout from '../layouts/CoreLayout/CoreLayout'
 import CounterRoute from './Counter'
-import NotifList from './NotifList'
+import LoginRoute from './Login'
+import NotifListRoute from './NotifList'
 
 export const createRoutes = (store) => ({
   path        : '/',
   component   : CoreLayout,
-  indexRoute  : NotifList,
+  indexRoute  : NotifListRoute,
   childRoutes : [
-    CounterRoute(store)
+    CounterRoute(store),
+    LoginRoute(store)
   ]
 })
 

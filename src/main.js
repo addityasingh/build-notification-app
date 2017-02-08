@@ -14,27 +14,6 @@ function initFirebase () {
     authDomain: "build-notification-app.firebaseapp.com",
     messagingSenderId: "776464732646"
   });
-
-  firebase.auth().onAuthStateChanged(user => {
-    if (user) {
-      // User is signed in.
-      var displayName = user.displayName;
-      var email = user.email;
-      var emailVerified = user.emailVerified;
-      var photoURL = user.photoURL;
-      var uid = user.uid;
-      var providerData = user.providerData;
-      user.getToken().then(function(accessToken) {
-        //TODO: Use this token to save user data and allow ush Notif
-        console.log('The access token for user is', accessToken);
-      });
-    } else {
-      // User is signed out.
-      console.warn('The user is signed out');
-    }
-  }, function(error) {
-    console.log('signout error', error);
-  });
 }
 
 initFirebase();

@@ -28,6 +28,7 @@ const webpackConfig = {
 // ------------------------------------
 const APP_ENTRY = paths.client('main.js')
 
+webpackConfig.devtool = 'source-map'
 webpackConfig.entry = {
   vendor : config.compiler_vendors,
   app : [APP_ENTRY]

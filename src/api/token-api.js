@@ -9,6 +9,3 @@ export const saveTokenForPush = subscription =>
         mode: 'no-cors',
         body: JSON.stringify(subscription)
     })
-
-const extractTokenFromSubscription = ({ endpoint }) =>
-    endpoint.replace('https://android.googleapis.com/gcm/send/', '')

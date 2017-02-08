@@ -5,16 +5,15 @@ import { darkBlack } from 'material-ui/styles/colors'
 import AngelIcon from '../../../static/assets/angel.svg'
 import UserAvatar from '../assets/avatar-128.jpg'
 import {
-  getBuildForUserRepo,
   getGithubRepos
-} from '../../../api/travis-api'
+} from '../../../api/github-api'
 import './NotifListView.scss'
 
 class NotifListView extends Component {
 	state = { data: []};
 
 	componentWillMount () {
-		getBuildForUserRepo('addityasingh', 'build-notification-app')
+		getGithubRepos('addityasingh')
 			.then(data => this.setState({ data }))
 			.catch(err => console.log('data fetch failed with error ', err))
 	}
@@ -28,10 +27,10 @@ class NotifListView extends Component {
 					<ListItem
 						key={id}
 						leftAvatar={<Avatar src={AngelIcon} />} 
-						primaryText={item.title}
+						primaryText={item.name}
 						secondaryText={
 								<p>
-								{item.state}
+								{item.html_url}
 								</p>
 						}
 					/>

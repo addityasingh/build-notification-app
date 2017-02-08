@@ -46,7 +46,3 @@ export const getBuildForUserRepo = (userName, repoName) =>
         map(getTravisBuildData),
         filter(build => build.event_type === 'pull_request')
     ))
-
-export const getGithubRepos = userName =>
-    fetch(`https://api.github.com/users/${userName}/repos`)
-        .then(res => res.json())

@@ -1,4 +1,4 @@
-const API_URL = 'https://d07a5522.ngrok.io'
+const API_URL = 'https://build-notification-api.herokuapp.com'
 
 export const saveTokenForPush = subscription =>
     fetch(`${API_URL}/token`, {

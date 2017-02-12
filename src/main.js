@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import createStore from './store/createStore'
 import AppContainer from './containers/AppContainer'
 import injectTapEventPlugin from 'react-tap-event-plugin'
-
+import { checkAuth } from './api/utils'
 import firebase from 'firebase'
 import 'firebaseui'
 import './sw-main'
@@ -17,25 +17,17 @@ function initFirebase () {
 }
 
 initFirebase();
-const initialState = window.___INITIAL_STATE__
-const store = createStore(initialState)
 injectTapEventPlugin()
-
 const MOUNT_NODE = document.getElementById('root')
+const initialState = window.___INITIAL_STATE__
 
-let render = () => {
+let render = (store) => {
   const routes = require('./routes/index').default(store)
 
   ReactDOM.render(
     <AppContainer store={store} routes={routes} />,
     MOUNT_NODE
   )
-}
-
-if (__DEV__) {
-  if (window.devToolsExtension) {
-    window.devToolsExtension.open()
-  }
 }
 
 // This code is excluded from production bundle
@@ -68,4 +60,10 @@ if (__DEV__) {
   }
 }
 
-render()
+checkAuth()
+  .then(userDetails => {
+    const store  = userDetails 
+        ? createStore(Object.assign({}, initialState, userDetails))
+        : createStore(initialState);
+    render(store)
+  })

@@ -1,7 +1,10 @@
 import React, { Component, PropTypes } from 'react'
+import { bindActionCreators } from 'redux'
 import { browserHistory, Router } from 'react-router'
-import { Provider } from 'react-redux'
+import { Provider, connect } from 'react-redux'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+
+import { updateToken } from '../actions/user'
 
 class AppContainer extends Component {
   static propTypes = {
@@ -28,4 +31,17 @@ class AppContainer extends Component {
   }
 }
 
-export default AppContainer
+const mapStateToProps = (state, ownProps) => state
+const mapDispatchToProps = dispatch => ({
+  actions: {
+    updateToken: bindActionCreators(updateToken, dispatch)
+  }
+})
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps,
+    null,
+    { withRef: true }
+)(AppContainer);
+

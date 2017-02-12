@@ -1,1 +1,2 @@
-export const USER_UPDATE = "USER_UPDATE"
+export const USER_UPDATE = 'USER_UPDATE'
+export const GITHUB_TOKEN_UPDATE = 'GITHUB_TOKEN_UPDATE' 

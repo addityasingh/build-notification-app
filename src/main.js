@@ -63,7 +63,7 @@ if (__DEV__) {
 checkAuth()
   .then(userDetails => {
     const store  = userDetails 
-        ? createStore(Object.assign({}, initialState, userDetails))
+        ? createStore(Object.assign({}, initialState, {}))
         : createStore(initialState);
     render(store)
   })

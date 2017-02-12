@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 import Avatar from 'material-ui/Avatar'
 import { List, ListItem } from 'material-ui/List'
 import { darkBlack } from 'material-ui/styles/colors'
@@ -13,7 +13,8 @@ class NotifListView extends Component {
 	state = { data: []};
 
 	componentWillMount () {
-		getGithubRepos('addityasingh')
+		const { userDetails: { login } } = this.props
+		getGithubRepos(login)
 			.then(data => this.setState({ data }))
 			.catch(err => console.log('data fetch failed with error ', err))
 	}
@@ -38,6 +39,13 @@ class NotifListView extends Component {
 			}
 		</List>)
 	}
+}
+
+NotifListView.propTypes = {
+	userDetails: PropTypes.shape({
+		name: PropTypes.string,
+		login: PropTypes.string
+	})
 }
 
 export default NotifListView

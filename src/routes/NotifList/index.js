@@ -1,11 +1,13 @@
-import { checkAuth } from '../../api/utils';
+import React from 'react'
+import { checkAuth } from '../../api/utils'
 import NotifListView from './components/NotifListView'
 
 export default (store) => ({
   path : 'home',
   getComponent (nextState, cb) {
     require.ensure([], () => {
-      cb(null, NotifListView)
+      const state = store.getState()
+      cb(null, () => <NotifListView {...state.user} />)
     }, 'home')
   },
   onEnter: (nextState, replace, cb) => { 

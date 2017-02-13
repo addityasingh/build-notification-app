@@ -12,7 +12,7 @@ export default (store) => ({
   },
   onEnter: (nextState, replace, cb) => { 
     const { user } = store.getState()
-    if(!user) {
+    if(!user && !Object.keys(user).length) {
       replace('/')
     }
     cb()

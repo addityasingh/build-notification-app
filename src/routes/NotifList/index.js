@@ -1,5 +1,4 @@
 import React from 'react'
-import { checkAuth } from '../../api/utils'
 import NotifListView from './components/NotifListView'
 
 export default (store) => ({

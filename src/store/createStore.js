@@ -3,6 +3,7 @@ import thunk from 'redux-thunk'
 import { browserHistory } from 'react-router'
 import makeRootReducer from './reducers'
 import { updateLocation } from './location'
+import { load, save } from 'redux-localstorage-simple'
 
 export default (initialState = {}) => {
   const middleware = [thunk]
@@ -16,9 +17,9 @@ export default (initialState = {}) => {
 
   const store = createStore(
     makeRootReducer(),
-    initialState,
+    Object.assign({}, initialState, load()),
     compose(
-      applyMiddleware(...middleware),
+      applyMiddleware(save(), ...middleware),
       ...enhancers
     )
   )

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import createStore from './store/createStore'
 import AppContainer from './containers/AppContainer'
 import injectTapEventPlugin from 'react-tap-event-plugin'
-import { checkAuth } from './api/utils'
 import firebase from 'firebase'
 import 'firebaseui'
 import './sw-main'
@@ -60,10 +59,5 @@ if (__DEV__) {
   }
 }
 
-checkAuth()
-  .then(userDetails => {
-    const store  = userDetails 
-        ? createStore(Object.assign({}, initialState, {}))
-        : createStore(initialState);
-    render(store)
-  })
+const store = createStore(initialState)
+render(store)
